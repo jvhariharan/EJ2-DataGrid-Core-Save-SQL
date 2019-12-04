@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp2.0\WebApplication1.deps.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp2.0\WebApplication1.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="17.3.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp2.0\WebApplication1.dll" />
+    <None Include="bin\Debug\netcoreapp2.0\WebApplication1.pdb" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.dll" />
+    <None Include="obj\Debug\netcoreapp2.0\WebApplication1.pdb" />
+    <None Include="obj\WebApplication1.csproj.nuget.cache" />
+    <None Include="obj\WebApplication1.csproj.nuget.g.props" />
+    <None Include="obj\WebApplication1.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+</Project>

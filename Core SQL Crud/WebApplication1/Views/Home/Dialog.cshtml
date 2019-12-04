@@ -1,0 +1,42 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<ej-dialog id="basicDialog" width=600 height=200>
+    <e-content-template>
+        <table cellspacing="10">
+            <tr>
+                <td>Order ID</td>
+                <td>
+                    <input id="OrderID" name="OrderID" disabled="disabled" class="e-field e-ejinputtext" style="width:116px;height:28px" />
+                </td>
+                <td>Customer ID</td>
+                <td>
+                    <input id="CustomerID" name="CustomerID" class="e-field e-ejinputtext" style="width: 116px; height: 28px" />
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Employee ID</td>
+                <td>
+                    <input type="text" id="EmployeeID" name="EmployeeID"  />
+                </td>
+                <td>Ship City</td>
+                <td>
+                    <select id="ShipCity" name="ShipCity">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Denmark">Denmark</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </e-content-template>
+</ej-dialog>
+
+
+<ej-script-manager></ej-script-manager>
